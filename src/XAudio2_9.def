@@ -1,0 +1,12 @@
+LIBRARY "XAudio2_9"
+EXPORTS
+    XAudio2Create                   = Proxy_XAudio2Create                   @1
+    CreateAudioReverb               = Proxy_CreateAudioReverb               @2
+    CreateAudioVolumeMeter          = Proxy_CreateAudioVolumeMeter          @3
+    CreateFX                        = Proxy_CreateFX                        @4
+    X3DAudioCalculate               = Proxy_X3DAudioCalculate               @5
+    X3DAudioInitialize              = Proxy_X3DAudioInitialize              @6
+    CreateAudioReverbV2_8           = Proxy_CreateAudioReverbV2_8           @7
+    XAudio2CreateV2_9               = Proxy_XAudio2CreateV2_9               @8
+    XAudio2CreateWithVersionInfo    = Proxy_XAudio2CreateWithVersionInfo    @9
+    XAudio2CreateWithSharedContexts = Proxy_XAudio2CreateWithSharedContexts @10

@@ -1,0 +1,33 @@
+# Build artifacts
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.tmp
+
+# Runtime logs
+*.log
+XAudio2_9_BBFix.log
+
+# Backups & archives
+*.bak
+*.zip
+*.7z
+*.rar
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+
+# OS specific
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local tools
+tools/
